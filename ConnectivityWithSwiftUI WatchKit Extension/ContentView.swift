@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var model = ViewModelWatch()
+    @State var meessageText : String = ""
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        VStack {
+            Text("Messaggi: ")
+            Text(self.model.messageText)
+        }
+        
     }
 }
 

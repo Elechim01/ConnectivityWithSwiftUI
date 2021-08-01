@@ -21,6 +21,8 @@
 		C4FAB1A326B6F09F006B3878 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FAB1A226B6F09F006B3878 /* ComplicationController.swift */; };
 		C4FAB1A526B6F09F006B3878 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4FAB1A426B6F09F006B3878 /* Assets.xcassets */; };
 		C4FAB1A826B6F09F006B3878 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4FAB1A726B6F09F006B3878 /* Preview Assets.xcassets */; };
+		C4FAB1B926B6F111006B3878 /* ViewModelIphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FAB1B826B6F111006B3878 /* ViewModelIphone.swift */; };
+		C4FAB1BB26B6F2A1006B3878 /* ViewModelWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FAB1BA26B6F2A1006B3878 /* ViewModelWatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		C4FAB1A726B6F09F006B3878 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4FAB1A926B6F09F006B3878 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4FAB1AA26B6F09F006B3878 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		C4FAB1B826B6F111006B3878 /* ViewModelIphone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelIphone.swift; sourceTree = "<group>"; };
+		C4FAB1BA26B6F2A1006B3878 /* ViewModelWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelWatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				C4FAB17D26B6F09C006B3878 /* ConnectivityWithSwiftUIApp.swift */,
+				C4FAB1B826B6F111006B3878 /* ViewModelIphone.swift */,
 				C4FAB17F26B6F09C006B3878 /* ContentView.swift */,
 				C4FAB18126B6F09E006B3878 /* Assets.xcassets */,
 				C4FAB18626B6F09E006B3878 /* Info.plist */,
@@ -157,6 +162,7 @@
 		C4FAB19926B6F09E006B3878 /* ConnectivityWithSwiftUI WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				C4FAB1BA26B6F2A1006B3878 /* ViewModelWatch.swift */,
 				C4FAB19A26B6F09E006B3878 /* ConnectivityWithSwiftUIApp.swift */,
 				C4FAB19C26B6F09E006B3878 /* ContentView.swift */,
 				C4FAB19E26B6F09E006B3878 /* NotificationController.swift */,
@@ -310,6 +316,7 @@
 			files = (
 				C4FAB18026B6F09C006B3878 /* ContentView.swift in Sources */,
 				C4FAB17E26B6F09C006B3878 /* ConnectivityWithSwiftUIApp.swift in Sources */,
+				C4FAB1B926B6F111006B3878 /* ViewModelIphone.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +328,7 @@
 				C4FAB19D26B6F09E006B3878 /* ContentView.swift in Sources */,
 				C4FAB1A326B6F09F006B3878 /* ComplicationController.swift in Sources */,
 				C4FAB19B26B6F09E006B3878 /* ConnectivityWithSwiftUIApp.swift in Sources */,
+				C4FAB1BB26B6F2A1006B3878 /* ViewModelWatch.swift in Sources */,
 				C4FAB1A126B6F09F006B3878 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
